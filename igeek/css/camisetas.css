@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #250448;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.banner1{
+    width: 100%;
+    border-bottom:5px solid #fdcb01;
+}
+
+.header {
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+
+ul{
+    position: relative;
+    background-color: #fdcb01;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li{
+    display: inline-block;  
+}
+
+ul li a{
+    text-decoration: none;
+    color: #f60261;
+    padding: 20px;
+    display: block;
+    font-weight: 700;
+    text-align: center;
+}
+
+ul li:hover{
+    background-color: #ffe786;
+}
+
+ul ul{
+    position: absolute;
+    min-width: 100px;
+    display: none;
+}
+
+ul ul li{
+    display: block;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+main.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 23px;
+    width: 100%;
+}
+
+main.produtos section.produtos{
+    display: flex;
+    max-width: 20%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    box-shadow: 20px 20px 30px -30px #f60261;
+}
+
+
+
+
+main.produtos section.produtos img {
+    width: 100%;
+    height: 100%;
+}
+
+main.produtos section.produtos button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #fdcb01;
+    color: #250448;
+
+}
+
+main.produtos section.produtos p{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+main.produtos section.produtos h1{
+    margin: 10px;
+    color: #f60261;
+}
+
+.banner2{
+    width: 100%;
+    border-bottom:5px solid #fdcb01;
+    border-top:5px solid #fdcb01;
+}
+
+footer{
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.rodape h3{
+    display: flex;
+    justify-content: center;
+}
+
+.rodape p{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.rodape-final p{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #f60261;
+    font-size: 13px;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    main.produtos {
+        flex-direction: column;
+    }
+
+    main.produtos selection.produtos {
+        margin-left: 0;
+        margin-bottom: 23px;
+    }
+
+    
+}
