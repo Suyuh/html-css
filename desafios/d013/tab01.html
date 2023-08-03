@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela 01</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <table>
-        
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
     </table>
 </body>
 </html>
